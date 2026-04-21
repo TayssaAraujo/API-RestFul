@@ -1,0 +1,54 @@
+# Sistema operacional
+*.DS_Store
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.idea/
+.vscode/
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.eggs/
+# Ambiente virtual
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Configurações locais do Django
+*.sqlite3
+db.sqlite3
+local_settings.py
+# Arquivos de migração
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.log
+# Arquivos estáticos e de mídia
+staticfiles/
+static/
+media/
+# Arquivos de compilação
+*.manifest
+*.lock
+# Arquivos de pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+# Arquivos de teste
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc
+# Configuração de CI/CD (opcional)
+.github/
+.idea/
